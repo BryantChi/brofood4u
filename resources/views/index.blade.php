@@ -1,96 +1,7 @@
-<!DOCTYPE html>
-<html lang="zh_TW">
+@extends('layouts_main.master')
 
-<head>
-    <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-    <meta name="description" content="{{ $seoInfo->description ?? '' }}" />
-    <meta name="keywords" content="{{ $seoInfo->keywords ?? '' }}" />
-    <meta property="og:locale" content="zh_TW" />
-    <meta name="author" content="紀孟勳 Bryantchi.work@gmail.com" />
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="{{ $seoInfo->og_title ?? '' }}" />
-    <meta property="og:description" content="{{ $seoInfo->og_discription ?? '' }}" />
-    <meta property="og:image" content="{{ asset('assets/images/fimgs/fbimg.jpg') }}" />
-    <meta property="og:url" content="{{ url()->full() }}" />
-    <meta property="og:site_name" content="{{ $seoInfo->og_site_name ?? '兄弟會客菜' }}" />
-    <title>{{ $seoInfo->title ?? '兄弟會客菜' }}</title>
-    <meta name="title" content="{{ $seoInfo->title ?? '兄弟會客菜' }}" />
-    <link rel="canonical" href="{{ url()->full() }}" />
-
-    <!-- Favicons -->
-    <link href="{{ asset('assets/images/LOGO/資產 2.png') }}" rel="icon">
-    <link href="{{ asset('assets/images/LOGO/資產 2.png') }}" rel="apple-touch-icon">
-
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com" rel="preconnect">
-    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Amatic+SC:wght@400;700&display=swap"
-        rel="stylesheet">
-
-    <!-- Vendor CSS Files -->
-    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-    <!-- <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet"> -->
-    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
-
-    <!-- FancyBox -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
-
-    <!-- Main CSS File -->
-    <link href="assets/css/main.css" rel="stylesheet">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/css/custom.css">
-</head>
-
-<body class="index-page">
-
-    <header id="header" class="header d-flex align-items-center sticky-top" data-aos="fade-down"
-        data-aos-delay="250">
-        <div class="container position-relative d-flex align-items-center justify-content-between">
-
-            <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
-                <!-- Uncomment the line below if you also wish to use an image logo -->
-                <img src="{{ asset('assets/images/LOGO/資產 1.png') }}" alt="">
-                <!-- <h1 class="sitename">兄弟會客菜</h1> -->
-                <span>.</span>
-            </a>
-
-            <nav id="navmenu" class="navmenu">
-                <ul>
-                    <li><a href="#services">服務內容</a></li>
-                    <li><a href="#about">品牌介紹</a></li>
-                    <li><a href="#latest-menu">最新菜單</a></li>
-                    <li><a href="#delivery">精選菜單</a></li>
-                    <li><a href="#faq">常見問答</a></li>
-                    <li><a href="#contact">聯絡我們</a></li>
-                </ul>
-                <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-            </nav>
-
-            <a class="btn-getstarted"
-                href="https://lin.ee/EC88vJt?fbclid=IwZXh0bgNhZW0CMTAAAR06B3jHdL4BSwQxROcegWxJw4HZ1EkJ6Ej2da1Uj17qHO3ymwWTfZ3eCSA_aem_6PGVjVlqvp0xcksExTeNqA">訂購</a>
-
-        </div>
-    </header>
-
+@section('content')
     <main class="main">
-
-        <!-- Hero Section -->
-        <section id="hero" class="hero section light-background" data-aos="fade-in" data-aos-delay="250">
-
-            <div class="container">
-                <div class="row gy-4 justify-content-center justify-content-lg-between">
-                </div>
-            </div>
-
-        </section>
-        <!-- /Hero Section -->
 
         <section id="services" class="servives py-0">
             <div class="container-fluid p-0 m-0">
@@ -130,8 +41,7 @@
                 <div class="row gy-4 justify-content-center align-items-end position-relative">
                     <div class="col-lg-6 d-flex flex-column h-100" style="min-height: 100%;" data-aos="fade-right"
                         data-aos-delay="100">
-                        <img src="{{ asset('assets/images/可用素材圖/1.png') }}"
-                            class="img-fluid w-100 h-100 object-fit-cover"
+                        <img src="{{ asset('assets/images/可用素材圖/1.png') }}" class="img-fluid w-100 h-100 object-fit-cover"
                             style="object-position: center;min-height: 320px;" alt="">
                     </div>
                     <!-- <div class="col-4 d-md-block d-none"></div> -->
@@ -146,8 +56,7 @@
                             <p><span>品牌</span> <span class="description-title">介紹</span></p>
                         </div>
                         <!-- End Section Title -->
-                        <div class="content ps-0 ps-lg-4 position-relative z-3" data-aos="fade-up"
-                            data-aos-delay="550">
+                        <div class="content ps-0 ps-lg-4 position-relative z-3" data-aos="fade-up" data-aos-delay="550">
                             <p class="fst-italic">
 
                             </p>
@@ -563,15 +472,15 @@
                                 </div>
                                 <div class="d-flex justify-content-center mb-4">
                                     <a href="https://www.facebook.com/profile.php?id=61572163022204"><img
-                                            src="{{ asset('assets/images/icon/facebook.png') }}"
-                                            class="img-fluid mx-2" width="26" alt=""></a>
+                                            src="{{ asset('assets/images/icon/facebook.png') }}" class="img-fluid mx-2"
+                                            width="26" alt=""></a>
                                     <a
                                         href="https://lin.ee/EC88vJt?fbclid=IwZXh0bgNhZW0CMTAAAR06B3jHdL4BSwQxROcegWxJw4HZ1EkJ6Ej2da1Uj17qHO3ymwWTfZ3eCSA_aem_6PGVjVlqvp0xcksExTeNqA"><img
                                             src="{{ asset('assets/images/icon/line.png') }}" class="img-fluid mx-2"
                                             width="26" alt=""></a>
                                     <a href="https://www.instagram.com/brofood4u/"><img
-                                            src="{{ asset('assets/images/icon/instagram.png') }}"
-                                            class="img-fluid mx-2" width="26" alt=""></a>
+                                            src="{{ asset('assets/images/icon/instagram.png') }}" class="img-fluid mx-2"
+                                            width="26" alt=""></a>
                                 </div>
                                 <p>
                                     <a href="https://maps.app.goo.gl/ueCrGrThqgr7Fe8u7" class="text-light"><i
@@ -648,84 +557,4 @@
         </section><!-- /Contact Section -->
 
     </main>
-
-    <footer id="footer" class="footer dark-background py-3">
-
-        <div class="container copyright text-center">
-            <div class="row justify-content-center">
-                <div class="col-md-auto text-center text-md-end mb-3 mb-md-0">
-                    <p class="mb-0">
-                        <img src="{{ asset('assets/images/lock.png') }}" class="img-fluid" width="20"
-                            alt="">
-                        <span>本網站採用全球最先進的TLS加密處理技術以確保所有傳輸資訊安全無憂</span>
-                    </p>
-                </div>
-                <div class="col-md-auto text-center text-md-start">
-                    <p class="mb-0 text-uppercase">© Copyright 2024 All Rights Reserved 兄弟會客菜 Web Design Power By <a
-                            href="https://lin.ee/L96Dave" target="_blank">MWStudio-Bryant(@378aifxm)</a></p>
-                </div>
-            </div>
-        </div>
-
-    </footer>
-
-    <!-- Scroll Top -->
-    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
-            class="bi bi-arrow-up-short"></i></a>
-
-    <!-- Preloader -->
-    <div id="preloader"></div>
-
-
-    <div class="d-none d-md-block social-links-btn">
-        <a href="https://lin.ee/EC88vJt?fbclid=IwZXh0bgNhZW0CMTAAAR06B3jHdL4BSwQxROcegWxJw4HZ1EkJ6Ej2da1Uj17qHO3ymwWTfZ3eCSA_aem_6PGVjVlqvp0xcksExTeNqA"
-            class="d-none d-md-block"><img src="{{ asset('assets/images/left_line.png') }}"
-                class="img-fluid left-line-img" alt=""></a>
-        <a href="https://www.facebook.com/profile.php?id=61572163022204" class="d-none d-md-block"><img
-                src="{{ asset('assets/images/left_mes.png') }}" class="img-fluid left-msg-img" alt=""></a>
-    </div>
-
-
-    <div class="d-flex d-md-none w-100 position-fixed bottom-0 left-0 social-links-btn-mobile">
-        <div class="row justify-content-center align-content-center text-center p-0 m-0 w-100">
-            <div class="col-6 s-line-btn align-self-center">
-                <a href="https://lin.ee/EC88vJt?fbclid=IwZXh0bgNhZW0CMTAAAR06B3jHdL4BSwQxROcegWxJw4HZ1EkJ6Ej2da1Uj17qHO3ymwWTfZ3eCSA_aem_6PGVjVlqvp0xcksExTeNqA"
-                    target="_blank">
-                    <span><i class="bi bi-line"></i></span> 下單訂購
-                </a>
-            </div>
-            <div class="col-6 s-phone-btn align-self-center">
-                <a href="tel:0900-730-256" target="_blank">
-                    <span><i class="bi bi-telephone-fill"></i></span> 聯絡專人
-                </a>
-            </div>
-            <!-- <div class="col-4 s-location-btn align-self-center">
-            <a href="" target="_blank">
-                <span><i class="bi bi-map-fill"></i></span> 地址導航
-            </a>
-        </div> -->
-        </div>
-    </div>
-
-    <!-- Vendor JS Files -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendor/php-email-form/validate.js"></script>
-    <script src="assets/vendor/aos/aos.js"></script>
-    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-    <!-- <script src="assets/vendor/swiper/swiper-bundle.min.js"></script> -->
-    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-
-    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js "></script>
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
-
-    <!-- Main JS File -->
-    <script src="assets/js/main.js"></script>
-    <script src="assets/js/custom.js"></script>
-
-</body>
-
-</html>
+@endsection
