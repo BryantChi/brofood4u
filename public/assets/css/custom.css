@@ -4,7 +4,7 @@
 }
 
 .hero {
-  background-image: url(../images/Banner/1.png);
+  /* background-image: url(../images/Banner/1.png); */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -72,7 +72,7 @@
         -moz-border-radius: 3px;
         -ms-border-radius: 3px;
         -o-border-radius: 3px;
-    }    
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1280px) {
@@ -88,7 +88,7 @@
       -moz-border-radius: 3px;
       -ms-border-radius: 3px;
       -o-border-radius: 3px;
-  }    
+  }
 }
 
 @media (max-width: 991px) {
@@ -104,7 +104,7 @@
       -moz-border-radius: 3px;
       -ms-border-radius: 3px;
       -o-border-radius: 3px;
-  }    
+  }
 }
 
 @media (max-width: 768px) {
