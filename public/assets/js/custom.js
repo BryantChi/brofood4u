@@ -61,8 +61,8 @@ $(function () {
         $(this).find('.faq-item-q').on('click', function () {
             // 關閉所有其他的 .faq-item-a 和重設箭頭狀態
             $('.faq-item-box').not($(this).parent()).find('.faq-item-a').slideUp();
-            $('.faq-item-box').not($(this).parent()).find('.faq-item-arrow-p').removeClass('d-none');
-            $('.faq-item-box').not($(this).parent()).find('.faq-item-arrow-d').addClass('d-none');
+            $('.faq-item-box').not($(this).parent()).find('.faq-item-arrow-d').removeClass('d-none');
+            $('.faq-item-box').not($(this).parent()).find('.faq-item-arrow-p').addClass('d-none');
 
             // 切換當前項目的狀態
             $(this).parent().find('.faq-item-a').slideToggle();
