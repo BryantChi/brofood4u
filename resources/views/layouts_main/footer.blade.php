@@ -9,8 +9,9 @@
                 </p>
             </div>
             <div class="col-md-auto text-center text-md-start">
-                <p class="mb-0 text-uppercase">© Copyright 2024 All Rights Reserved 兄弟會客菜 Web Design Power By <a
-                        href="https://lin.ee/L96Dave" target="_blank">MWStudio-Bryant(@378aifxm)</a></p>
+                <p class="mb-0 text-uppercase">© Copyright 2024 All Rights Reserved 兄弟會客菜 </p>
+                {{-- Web Design Power By <a
+                        href="https://lin.ee/L96Dave" target="_blank">MWStudio-Bryant(@378aifxm)</a> --}}
             </div>
         </div>
     </div>
