@@ -276,8 +276,8 @@
                         <div class="faq-item-box px-3" data-aos="fade-up" data-aos-delay="100">
                             <div class="faq-item-q d-flex justify-content-between">
                                 <h5><span class="q-num">Q1.</span>每天都可以幫忙寄菜嗎？</h5>
-                                <span class="faq-item-arrow-d"><i class="bi bi-dash-lg"></i></span>
-                                <span class="faq-item-arrow-p d-none"><i class="bi bi-plus-lg"></i></span>
+                                <span class="faq-item-arrow-d"><i class="bi bi-plus-lg"></i></span>
+                                <span class="faq-item-arrow-p d-none"><i class="bi bi-dash-lg"></i></span>
                             </div>
                             <div class="faq-item-line"></div>
                             <div class="faq-item-a">
@@ -292,8 +292,8 @@
                         <div class="faq-item-box px-3" data-aos="fade-up" data-aos-delay="200">
                             <div class="faq-item-q d-flex justify-content-between">
                                 <h5><span class="q-num">Q2.</span>每次寄菜有最低數量或金額限制嗎？</h5>
-                                <span class="faq-item-arrow-d"><i class="bi bi-dash-lg"></i></span>
-                                <span class="faq-item-arrow-p d-none"><i class="bi bi-plus-lg"></i></span>
+                                <span class="faq-item-arrow-d"><i class="bi bi-plus-lg"></i></span>
+                                <span class="faq-item-arrow-p d-none"><i class="bi bi-dash-lg"></i></span>
                             </div>
                             <div class="faq-item-line"></div>
                             <div class="faq-item-a">
@@ -308,8 +308,8 @@
                         <div class="faq-item-box px-3" data-aos="fade-up" data-aos-delay="300">
                             <div class="faq-item-q d-flex justify-content-between">
                                 <h5><span class="q-num">Q3.</span>全台監所都可以幫忙寄菜嗎？</h5>
-                                <span class="faq-item-arrow-d"><i class="bi bi-dash-lg"></i></span>
-                                <span class="faq-item-arrow-p d-none"><i class="bi bi-plus-lg"></i></span>
+                                <span class="faq-item-arrow-d"><i class="bi bi-plus-lg"></i></span>
+                                <span class="faq-item-arrow-p d-none"><i class="bi bi-dash-lg"></i></span>
                             </div>
                             <div class="faq-item-line"></div>
                             <div class="faq-item-a">
@@ -324,8 +324,8 @@
                         <div class="faq-item-box px-3" data-aos="fade-up" data-aos-delay="400">
                             <div class="faq-item-q d-flex justify-content-between">
                                 <h5><span class="q-num">Q4.</span>代寄現金需要手續費嗎？</h5>
-                                <span class="faq-item-arrow-d"><i class="bi bi-dash-lg"></i></span>
-                                <span class="faq-item-arrow-p d-none"><i class="bi bi-plus-lg"></i></span>
+                                <span class="faq-item-arrow-d"><i class="bi bi-plus-lg"></i></span>
+                                <span class="faq-item-arrow-p d-none"><i class="bi bi-dash-lg"></i></span>
                             </div>
                             <div class="faq-item-line"></div>
                             <div class="faq-item-a">
@@ -340,8 +340,8 @@
                         <div class="faq-item-box px-3" data-aos="fade-up" data-aos-delay="500">
                             <div class="faq-item-q d-flex justify-content-between">
                                 <h5><span class="q-num">Q5.</span>需要幫忙寄菜需要提供什麼？</h5>
-                                <span class="faq-item-arrow-d"><i class="bi bi-dash-lg"></i></span>
-                                <span class="faq-item-arrow-p d-none"><i class="bi bi-plus-lg"></i></span>
+                                <span class="faq-item-arrow-d"><i class="bi bi-plus-lg"></i></span>
+                                <span class="faq-item-arrow-p d-none"><i class="bi bi-dash-lg"></i></span>
                             </div>
                             <div class="faq-item-line"></div>
                             <div class="faq-item-a">
@@ -356,8 +356,8 @@
                         <div class="faq-item-box px-3" data-aos="fade-up" data-aos-delay="600">
                             <div class="faq-item-q d-flex justify-content-between">
                                 <h5><span class="q-num">Q6.</span>最晚需要提前多久下單？</h5>
-                                <span class="faq-item-arrow-d"><i class="bi bi-dash-lg"></i></span>
-                                <span class="faq-item-arrow-p d-none"><i class="bi bi-plus-lg"></i></span>
+                                <span class="faq-item-arrow-d"><i class="bi bi-plus-lg"></i></span>
+                                <span class="faq-item-arrow-p d-none"><i class="bi bi-dash-lg"></i></span>
                             </div>
                             <div class="faq-item-line"></div>
                             <div class="faq-item-a">
@@ -372,8 +372,8 @@
                         <div class="faq-item-box px-3" data-aos="fade-up" data-aos-delay="700">
                             <div class="faq-item-q d-flex justify-content-between">
                                 <h5><span class="q-num">Q7.</span>可以指定送達時間嗎？</h5>
-                                <span class="faq-item-arrow-d"><i class="bi bi-dash-lg"></i></span>
-                                <span class="faq-item-arrow-p d-none"><i class="bi bi-plus-lg"></i></span>
+                                <span class="faq-item-arrow-d"><i class="bi bi-plus-lg"></i></span>
+                                <span class="faq-item-arrow-p d-none"><i class="bi bi-dash-lg"></i></span>
                             </div>
                             <div class="faq-item-line"></div>
                             <div class="faq-item-a">
@@ -388,8 +388,8 @@
                         <div class="faq-item-box px-3" data-aos="fade-up" data-aos-delay="800">
                             <div class="faq-item-q d-flex justify-content-between">
                                 <h5><span class="q-num">Q8.</span>有哪些付款方式？</h5>
-                                <span class="faq-item-arrow-d"><i class="bi bi-dash-lg"></i></span>
-                                <span class="faq-item-arrow-p d-none"><i class="bi bi-plus-lg"></i></span>
+                                <span class="faq-item-arrow-d"><i class="bi bi-plus-lg"></i></span>
+                                <span class="faq-item-arrow-p d-none"><i class="bi bi-dash-lg"></i></span>
                             </div>
                             <div class="faq-item-line"></div>
                             <div class="faq-item-a">
@@ -404,8 +404,8 @@
                         <div class="faq-item-box px-3" data-aos="fade-up" data-aos-delay="900">
                             <div class="faq-item-q d-flex justify-content-between">
                                 <h5><span class="q-num">Q9.</span>如何確認餐點是否成功送達？</h5>
-                                <span class="faq-item-arrow-d"><i class="bi bi-dash-lg"></i></span>
-                                <span class="faq-item-arrow-p d-none"><i class="bi bi-plus-lg"></i></span>
+                                <span class="faq-item-arrow-d"><i class="bi bi-plus-lg"></i></span>
+                                <span class="faq-item-arrow-p d-none"><i class="bi bi-dash-lg"></i></span>
                             </div>
                             <div class="faq-item-line"></div>
                             <div class="faq-item-a">
@@ -420,8 +420,8 @@
                         <div class="faq-item-box px-3" data-aos="fade-up" data-aos-delay="1000">
                             <div class="faq-item-q d-flex justify-content-between">
                                 <h5><span class="q-num">Q10.</span>可以訂購菜單以外的餐點嗎？</h5>
-                                <span class="faq-item-arrow-d"><i class="bi bi-dash-lg"></i></span>
-                                <span class="faq-item-arrow-p d-none"><i class="bi bi-plus-lg"></i></span>
+                                <span class="faq-item-arrow-d"><i class="bi bi-plus-lg"></i></span>
+                                <span class="faq-item-arrow-p d-none"><i class="bi bi-dash-lg"></i></span>
                             </div>
                             <div class="faq-item-line"></div>
                             <div class="faq-item-a">
