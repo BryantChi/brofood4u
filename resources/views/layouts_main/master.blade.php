@@ -46,6 +46,8 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="{{asset('assets/css/custom.css')}}?v={{time()}}">
+
+    <link rel="preload" as="image" href="{{ asset('assets/images/Banner/1.png')}}">
 </head>
 
 <body class="index-page">
