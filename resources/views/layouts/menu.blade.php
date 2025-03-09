@@ -21,6 +21,13 @@
     </a>
 </li>
 
+<li class="nav-item">
+    <a href="{{ route('admin.menuInfos.index') }}" class="nav-link {{ Request::is('admin.menuInfos*') ? 'active' : '' }}">
+        <span class="mr-2 brand-image"><i class="fas fa-utensils"></i></span>
+        <p>菜單管理</p>
+    </a>
+</li>
+
 {{-- <li class="nav-item">
     <a href="{{ route('admin.marqueeInfos.index') }}"
        class="nav-link {{ Request::is('admin/marqueeInfos*') ? 'active' : '' }}">
@@ -37,3 +44,5 @@
         <p>最新消息</p>
     </a>
 </li> --}}
+
+

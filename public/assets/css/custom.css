@@ -3,6 +3,16 @@
   --white: #fff;
 }
 
+.indent {
+    text-indent: 2em;
+}
+
+@media (max-width: 768px) {
+    .header .logo img {
+        max-height: 30px;
+    }
+
+}
 .hero {
   background-image: url(../images/Banner/1.png);
   background-size: cover;
@@ -554,3 +564,13 @@
 .text-gold {
   color: #D4AF37 !important;
 }
+
+.feedback .swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+  }

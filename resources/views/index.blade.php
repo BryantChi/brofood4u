@@ -10,21 +10,21 @@
                         class="col-md-4 position-relative d-flex justify-content-center align-items-center overflow-hidden services-content">
                         <div class="sbg sbg-1"></div>
                         <div class="py-5 text-center services-text position-relative z-2 text-white">
-                            <h4 class="text-white" data-aos="fade-up" data-aos-delay="350">彰化、台中會客送外送服務</h4>
+                            <h4 class="text-white" data-aos="fade-up" data-aos-delay="350">熟悉流程，專業服務</h4>
                         </div>
                     </div>
                     <div
                         class="col-md-4 position-relative d-flex justify-content-center align-items-center overflow-hidden services-content">
                         <div class="sbg sbg-2"></div>
                         <div class="py-5 text-center services-text position-relative z-2 text-white">
-                            <h4 class="text-white" data-aos="fade-up" data-aos-delay="450">探監會客菜寄送、代寄錢、代寄百貨</h4>
+                            <h4 class="text-white" data-aos="fade-up" data-aos-delay="450">專送彰化、台中會客菜</h4>
                         </div>
                     </div>
                     <div
                         class="col-md-4 position-relative d-flex justify-content-center align-items-center overflow-hidden services-content">
                         <div class="sbg sbg-3"></div>
                         <div class="py-5 text-center services-text position-relative z-2 text-white">
-                            <h4 class="text-white" data-aos="fade-up" data-aos-delay="550">訂購歡迎洽詢官方Line@</h4>
+                            <h4 class="text-white" data-aos="fade-up" data-aos-delay="550">探監菜/代寄錢/代寄百貨</h4>
                         </div>
                     </div>
                 </div>
@@ -56,11 +56,11 @@
                             <p><span>品牌</span> <span class="description-title">介紹</span></p>
                         </div>
                         <!-- End Section Title -->
-                        <div class="content ps-0 ps-lg-4 position-relative z-3" data-aos="fade-up" data-aos-delay="550">
+                        <div class="content ps-0 ps-lg-2 position-relative z-3" data-aos="fade-up" data-aos-delay="550">
                             <p class="fst-italic">
 
                             </p>
-                            <p class="text-justify">
+                            <p class="text-justify indent">
                                 阿宏年少時離開家鄉，迷失於社會的誘惑與現實。經歷過監獄生活的他，因一場與阿嬤的重逢，終於痛覺醒悟。出獄後，他學會烹飪，開設餐館，並以「兄弟會客菜」為名，傳遞家的溫暖。餐館不僅提供溫情料理，亦為迷失的年輕人提供第二次機會，教他們廚藝與服務，幫助他們重新定義人生方向。
                             </p>
 
@@ -438,8 +438,37 @@
             </div>
         </section>
 
+        <section id="feedback" class="feedback section pb-0">
+            <div class="container section-title" data-aos="fade-up">
+                <h2>- Feedback -</h2>
+                <p><span>客戶</span> <span class="description-title">好評</span></p>
+            </div>
+
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+                <div class="row gy-4 justify-content-center">
+
+                    <div class="col-lg-6 mb-3">
+
+                        <div class="swiper feedbackSwiper mx-auto">
+                            <div class="swiper-wrapper">
+                              <div class="swiper-slide">
+                                <img src="{{ asset('assets/images/feedback/12.png') }}" class="img-fluid feedback-img" alt="">
+                              </div>
+                              <div class="swiper-slide">
+                                <img src="{{ asset('assets/images/feedback/13.png') }}" class="img-fluid feedback-img" alt="">
+                              </div>
+                              {{-- <div class="swiper-slide"></div> --}}
+                            </div>
+                          </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
         <!-- Contact Section -->
-        <section id="contact" class="contact section">
+        <section id="contact" class="contact section light-background">
 
             <!-- Section Title -->
             <div class="container section-title" data-aos="fade-up">
@@ -483,7 +512,7 @@
                                             width="26" alt=""></a>
                                 </div>
                                 <p>
-                                    <a href="https://maps.app.goo.gl/ueCrGrThqgr7Fe8u7" class="text-light"><i
+                                    <a href="https://maps.app.goo.gl/McqECT96vomBTNHaA" class="text-light"><i
                                             class="icon bi bi-geo-alt flex-shrink-0"></i> 彰化縣溪湖郵局第35號信箱</a><br>
                                     <a href="tel:0900-730-256" class="text-light"><i
                                             class="icon bi bi-telephone flex-shrink-0"></i> 0900-730-256</a>
@@ -494,7 +523,7 @@
 
                     <div class="col-md-8">
                         <iframe style="width: 100%; height: 400px;"
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3645.936664585369!2d120.47764047534257!3d23.962679678526268!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34694977be54eb29%3A0x1591ad024bd1b841!2z5rqq5rmW6YO15bGA!5e0!3m2!1szh-TW!2stw!4v1740310419884!5m2!1szh-TW!2stw"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3645.4177851868462!2d120.42712590000001!3d23.981019800000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34694f8470baf0b9%3A0xcd20c4fa79c6b979!2z5YWE5byf5pyD5a6i6I-c!5e0!3m2!1szh-TW!2stw!4v1741544234387!5m2!1szh-TW!2stw"
                             frameborder="0" allowfullscreen=""></iframe>
                     </div>
 

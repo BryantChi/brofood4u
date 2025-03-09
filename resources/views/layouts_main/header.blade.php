@@ -3,6 +3,7 @@
 
         <a href="{{ route('index') }}" class="logo d-flex align-items-center me-auto me-xl-0">
             <!-- Uncomment the line below if you also wish to use an image logo -->
+            <img src="{{ asset('assets/images/LOGO/資產 2.png') }}" alt="">
             <img src="{{ asset('assets/images/LOGO/資產 1.png') }}" alt="">
             <!-- <h1 class="sitename">兄弟會客菜</h1> -->
             <span>.</span>

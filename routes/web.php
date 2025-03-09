@@ -53,6 +53,7 @@ Route::post(
 Route::prefix('admin')->group(function () {
     Route::middleware(['auth'])->group(function () {
         Route::resource('seoSettings', App\Http\Controllers\Admin\SeoSettingController::class, ["as" => 'admin']);
+        Route::resource('menuInfos', App\Http\Controllers\Admin\MenuInfoController::class, ["as" => 'admin']);
 
         Route::any('adminUsers', [App\Http\Controllers\Admin\AdminAccountController::class, 'index'])->name('admin.adminUsers.index');
         Route::any('adminUsers/create', [App\Http\Controllers\Admin\AdminAccountController::class, 'create'])->name('admin.adminUsers.create');
@@ -63,3 +64,14 @@ Route::prefix('admin')->group(function () {
         Route::any('adminUsers/destroy/{id}', [App\Http\Controllers\Admin\AdminAccountController::class, 'destroy'])->name('admin.adminUsers.destroy');
     });
 });
+
+// Route::resource('admin/menu-infos', App\Http\Controllers\Admin\MenuInfoController::class)
+//     ->names([
+//         'index' => 'admin.menuInfos.index',
+//         'store' => 'admin.menuInfos.store',
+//         'show' => 'admin.menuInfos.show',
+//         'update' => 'admin.menuInfos.update',
+//         'destroy' => 'admin.menuInfos.destroy',
+//         'create' => 'admin.menuInfos.create',
+//         'edit' => 'admin.menuInfos.edit'
+//     ]);

@@ -56,6 +56,18 @@ var swiper = new Swiper(".mySwiper", {
   },
 });
 
+var swiper = new Swiper(".feedbackSwiper", {
+    effect: "cards",
+    grabCursor: true,
+    loop: true,
+    centeredSlides: true,
+    slidesPerView: "auto",
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false
+    },
+  });
+
 $(function () {
     $.each($('.faq-item-box'), function (i, v) {
         $(this).find('.faq-item-q').on('click', function () {
