@@ -16,6 +16,7 @@
                 <li><a href="#latest-menu">最新菜單</a></li>
                 <li><a href="#delivery">精選菜單</a></li>
                 <li><a href="#faq">常見問答</a></li>
+                <li><a href="#feedback">客戶好評</a></li>
                 <li><a href="#contact">聯絡我們</a></li>
             </ul>
             <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
