@@ -8,7 +8,7 @@
     <div class="img-preview-cover mt-2">
         @if ($menuInfo->img_path ?? null)
             <p for="">預覽</p>
-            <img src="{{ env('APP_URL', 'https://brofood4u.powerchi.com.tw') . '/uploads/' . $menuInfo->img_path }}"
+            <img src="{{ env('APP_URL', 'https://brofood4u.tw') . '/uploads/' . $menuInfo->img_path }}"
                 style="max-width: 200px; max-height: 200px;">
         @endif
     </div>

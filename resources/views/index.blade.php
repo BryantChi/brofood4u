@@ -89,7 +89,18 @@
                     <!-- <p>最近更新日：2025/1/24</p> -->
                 </div>
                 <div class="row">
+                    @php
+                        $menus = \App\Models\Admin\MenuInfo::where('status', 1)->orderBy('id', 'desc')->get();
+                    @endphp
+
+                    @foreach ($menus as $menu)
                     <div class="col-md-6 mb-3" data-aos="fade-right" data-aos-delay="100">
+                        <a href="{{ env('APP_URL', 'https://brofood4u.tw') . '/uploads/' . $menu->img_path }}" data-fancybox="_menu">
+                            <img src="{{ env('APP_URL', 'https://brofood4u.tw') . '/uploads/' . $menu->img_path }}" alt="菜單" class="img-fluid" />
+                        </a>
+                    </div>
+                    @endforeach
+                    {{-- <div class="col-md-6 mb-3" data-aos="fade-right" data-aos-delay="100">
                         <a href="{{ asset('assets/images/最新菜單/1.jpg') }}" data-fancybox="_menu">
                             <img src="{{ asset('assets/images/最新菜單/1.jpg') }}" alt="菜單圖片1" class="img-fluid" />
                         </a>
@@ -98,7 +109,7 @@
                         <a href="{{ asset('assets/images/最新菜單/2.jpg') }}" data-fancybox="_menu">
                             <img src="{{ asset('assets/images/最新菜單/2.jpg') }}" alt="菜單圖片2" class="img-fluid" />
                         </a>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </section>
