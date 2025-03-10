@@ -20,7 +20,7 @@ class MenuInfo extends Model
     ];
 
     public static array $rules = [
-        'img_path' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:512',
+        'img_path' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:1024',
     ];
 
 
