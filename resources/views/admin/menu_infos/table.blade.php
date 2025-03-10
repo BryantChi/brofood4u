@@ -11,7 +11,9 @@
             <tbody>
             @foreach($menuInfos as $menuInfo)
                 <tr>
-                    <td>{{ env('APP_URL', 'http://brofood4u.powerchi.com.tw') . '/uploads/' . $menuInfo->img_path }}</td>
+                    <td>
+                        <img src="{{ env('APP_URL', 'http://brofood4u.tw') . '/uploads/' . $menuInfo->img_path }}" class="img-fluid" width="200" alt="">
+                    </td>
                     <td>{{ $menuInfo->status == 1 ? '啟用' : '停用' }}</td>
                     <td  style="width: 120px">
                         {!! Form::open(['route' => ['admin.menuInfos.destroy', $menuInfo->id], 'method' => 'delete']) !!}
