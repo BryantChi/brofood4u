@@ -7,6 +7,8 @@ use App\Http\Requests\Admin\UpdateMenuInfoRequest;
 use App\Http\Controllers\AppBaseController;
 use App\Repositories\Admin\MenuInfoRepository;
 use Illuminate\Http\Request;
+use Intervention\Image\Facades\Image;
+use Illuminate\Support\Facades\File;
 use Flash;
 
 class MenuInfoController extends AppBaseController
