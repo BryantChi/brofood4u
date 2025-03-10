@@ -15,12 +15,13 @@ class MenuInfo extends Model
 
     protected $casts = [
         'id' => 'integer',
+        'img_path' => 'json',
         'status' => 'boolean'
     ];
 
     public static array $rules = [
-        'img_path' => 'nullable'
+        'img_path' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:512',
     ];
 
-    
+
 }
