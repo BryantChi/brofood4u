@@ -18,6 +18,7 @@
     <title>{{ $seoInfo->title ?? '兄弟會客菜' }}</title>
     <meta name="title" content="{{ $seoInfo->title ?? '兄弟會客菜' }}" />
     <link rel="canonical" href="{{ url()->full() }}" />
+    <meta name="google-site-verification" content="lWEr7m-4SumUs3oQQ5waueMrkwkEdXExmvlm4Xtzrko" />
 
     <!-- Favicons -->
     <link href="{{ asset('assets/images/LOGO/資產 2.png') }}" rel="icon">
