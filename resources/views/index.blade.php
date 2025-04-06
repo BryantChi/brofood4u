@@ -135,11 +135,17 @@
                                 <h3 class="food-rating">
                                     <span class="fw-bold">5</span>
                                     <div class="rating">
+                                        <span><i class="bi bi-star-fill"></i></span>
+                                        <span><i class="bi bi-star-fill"></i></span>
+                                        <span><i class="bi bi-star-fill"></i></span>
+                                        <span><i class="bi bi-star-fill"></i></span>
+                                        <span><i class="bi bi-star-fill"></i></span>
+
+                                        {{-- <ion-icon name="star"></ion-icon>
                                         <ion-icon name="star"></ion-icon>
                                         <ion-icon name="star"></ion-icon>
                                         <ion-icon name="star"></ion-icon>
-                                        <ion-icon name="star"></ion-icon>
-                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon> --}}
                                     </div>
                                 </h3>
                             </div>
@@ -158,11 +164,11 @@
                                 <h3 class="food-rating">
                                     <span class="fw-bold">5</span>
                                     <div class="rating">
-                                        <ion-icon name="star"></ion-icon>
-                                        <ion-icon name="star"></ion-icon>
-                                        <ion-icon name="star"></ion-icon>
-                                        <ion-icon name="star"></ion-icon>
-                                        <ion-icon name="star"></ion-icon>
+                                        <span><i class="bi bi-star-fill"></i></span>
+                                        <span><i class="bi bi-star-fill"></i></span>
+                                        <span><i class="bi bi-star-fill"></i></span>
+                                        <span><i class="bi bi-star-fill"></i></span>
+                                        <span><i class="bi bi-star-fill"></i></span>
                                     </div>
                                 </h3>
                             </div>
@@ -181,11 +187,11 @@
                                 <h3 class="food-rating">
                                     <span class="fw-bold">5</span>
                                     <div class="rating">
-                                        <ion-icon name="star"></ion-icon>
-                                        <ion-icon name="star"></ion-icon>
-                                        <ion-icon name="star"></ion-icon>
-                                        <ion-icon name="star"></ion-icon>
-                                        <ion-icon name="star"></ion-icon>
+                                        <span><i class="bi bi-star-fill"></i></span>
+                                        <span><i class="bi bi-star-fill"></i></span>
+                                        <span><i class="bi bi-star-fill"></i></span>
+                                        <span><i class="bi bi-star-fill"></i></span>
+                                        <span><i class="bi bi-star-fill"></i></span>
                                     </div>
                                 </h3>
                             </div>
@@ -204,11 +210,11 @@
                                 <h3 class="food-rating">
                                     <span class="fw-bold">5</span>
                                     <div class="rating">
-                                        <ion-icon name="star"></ion-icon>
-                                        <ion-icon name="star"></ion-icon>
-                                        <ion-icon name="star"></ion-icon>
-                                        <ion-icon name="star"></ion-icon>
-                                        <ion-icon name="star"></ion-icon>
+                                        <span><i class="bi bi-star-fill"></i></span>
+                                        <span><i class="bi bi-star-fill"></i></span>
+                                        <span><i class="bi bi-star-fill"></i></span>
+                                        <span><i class="bi bi-star-fill"></i></span>
+                                        <span><i class="bi bi-star-fill"></i></span>
                                     </div>
                                 </h3>
                             </div>
@@ -227,11 +233,11 @@
                                 <h3 class="food-rating">
                                     <span class="fw-bold">5</span>
                                     <div class="rating">
-                                        <ion-icon name="star"></ion-icon>
-                                        <ion-icon name="star"></ion-icon>
-                                        <ion-icon name="star"></ion-icon>
-                                        <ion-icon name="star"></ion-icon>
-                                        <ion-icon name="star"></ion-icon>
+                                        <span><i class="bi bi-star-fill"></i></span>
+                                        <span><i class="bi bi-star-fill"></i></span>
+                                        <span><i class="bi bi-star-fill"></i></span>
+                                        <span><i class="bi bi-star-fill"></i></span>
+                                        <span><i class="bi bi-star-fill"></i></span>
                                     </div>
                                 </h3>
                             </div>
@@ -250,11 +256,11 @@
                                 <h3 class="food-rating">
                                     <span class="fw-bold">5</span>
                                     <div class="rating">
-                                        <ion-icon name="star"></ion-icon>
-                                        <ion-icon name="star"></ion-icon>
-                                        <ion-icon name="star"></ion-icon>
-                                        <ion-icon name="star"></ion-icon>
-                                        <ion-icon name="star"></ion-icon>
+                                        <span><i class="bi bi-star-fill"></i></span>
+                                        <span><i class="bi bi-star-fill"></i></span>
+                                        <span><i class="bi bi-star-fill"></i></span>
+                                        <span><i class="bi bi-star-fill"></i></span>
+                                        <span><i class="bi bi-star-fill"></i></span>
                                     </div>
                                 </h3>
                             </div>

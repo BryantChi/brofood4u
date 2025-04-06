@@ -329,6 +329,10 @@
   color: var(--primary);
 }
 
+.rating span {
+  color: var(--primary);
+}
+
 .swiper-slide-shadow-left,
 .swiper-slide-shadow-right {
   display: none;
